@@ -1,0 +1,172 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Horaires" Height="527" Width="899">
+    <Grid>
+
+        <TabControl Margin="10,40,0,0" >
+            <TabItem x:Name="tbl_1" Header="Tableau" Width="100">
+
+                <ListView x:Name="lst_View" ItemsSource="{Binding lst_Horaire_copy}" Margin="10,10,10,23" SelectionMode="Single">
+
+                    <ListView.ContextMenu>
+                        <ContextMenu Name="ZoneIformationList" StaysOpen="true" Background="WhiteSmoke">
+                            <ContextMenu.BitmapEffect>
+                                <BitmapEffectGroup/>
+                            </ContextMenu.BitmapEffect>
+                            <MenuItem Header="Copy NoCours" Name="CopyNoCours" Click="CopyNoCours_Click"   />
+                            <MenuItem Header="Copy NomCours" Name="CopyNomCours" Click="CopyNomCours_Click"  />
+                            <MenuItem Header="Copy NumeroLocal" Name="CopyNumeroLocal" Click="CopyNumeroLocal_Click"   />
+                            <MenuItem Header="Copy NoGroupe" Name="CopyNoGroupe" Click="CopyNoGroupe_Click"   />
+                            
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding NoGroupe}" Header="NoGroupe" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding NoCours}" Header="NoCours" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding NomCours}" Header="NomCours" Width="220"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding NumeroLocal}" Header="NumeroLocal" Width="120"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding idLocal}" Header="idLocal" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding TypeDeLocal}" Header="TypeDeLocal" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding DateDebut}" Header="DateDebut" Width="70"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding HeureDebut}" Header="HeureDebut" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding DateFin}" Header="DateFin" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding HeureFin}" Header="HeureFin" Width="100"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding NoJour}" Header="NoJour" Width="100"></GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </TabItem>
+
+            <TabItem Header="Filter" Width="100">
+                <Canvas >
+
+                    <GroupBox Header="Accordage" Height="350" Canvas.Left="92" Canvas.Top="10" Width="517">
+                        <Grid Margin="0,10,13,8" >
+                            <Button Content="Filtrer" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="75" Click="Filtrer_Click"/>
+                            <TextBox x:Name="txtNomCours" HorizontalAlignment="Left" Height="23" Margin="123,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" IsEnabled="False"/>
+                            <ComboBox x:Name="cmbAns" HorizontalAlignment="Left" Margin="123,73,0,0" VerticalAlignment="Top" Width="59" IsEnabled="False">
+                                <ComboBoxItem Content="2016" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="2017" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="2018" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="2019" HorizontalAlignment="Left"/>
+                            </ComboBox>
+                            <ComboBox x:Name="cmbHeures" HorizontalAlignment="Left" Margin="392,73,0,0" VerticalAlignment="Top" Width="84" IsEnabled="False">
+                                <ComboBoxItem Content="01:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="02:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="03:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="04:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="05:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="06:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="07:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="08:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="09:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="10:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="11:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="12:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="13:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="14:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="15:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="16:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="17:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="18:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="19:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="20:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="21:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="22:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="23:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+                                <ComboBoxItem Content="24:00:00" HorizontalAlignment="Left" Width="90" FlowDirection="RightToLeft"/>
+
+                            </ComboBox>
+                            <CheckBox x:Name="chkNomCours" Content="NomCours" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="Event_NomCours_Checked"/>
+                            <CheckBox x:Name="chkDateDebut" Content="DateDebut:" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="chkDateDebut_Checked"/>
+                            <CheckBox x:Name="chkHeureDebut" Content="HeureDebut:" HorizontalAlignment="Left" Margin="299,76,0,0" VerticalAlignment="Top" Height="21" Width="89" Click="Event_Check_Click_Button" IsEnabled="False"/>
+                            <CheckBox x:Name="chkNumeroLocal" Content="NumeroLocal:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="chkNumeroLocal_Click"/>
+                            <TextBox x:Name="txtNumLocal" HorizontalAlignment="Left" Height="23" Margin="123,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" IsEnabled="False"/>
+                            <ComboBox x:Name="cmbMois" HorizontalAlignment="Left" Margin="187,73,0,0" VerticalAlignment="Top" Width="44" IsEnabled="False">
+                                <ComboBoxItem Content="01" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="02" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="03" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="04" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="05" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="06" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="07" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="08" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="09" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="10" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="11" HorizontalAlignment="Left"/>
+                                <ComboBoxItem Content="12" HorizontalAlignment="Left"/>
+                            </ComboBox>
+                            <ComboBox x:Name="cmbJour" HorizontalAlignment="Left" Margin="236,73,0,0" VerticalAlignment="Top" Width="44" IsEnabled="False">
+                                <ComboBoxItem Content="01" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="02" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="03" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="04" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="05" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="06" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="07" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="08" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="09" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="10" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="11" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="12" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="13" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="14" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="15" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="16" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="17" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="18" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="19" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="20" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="21" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="22" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="23" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="24" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="25" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="26" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="27" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="28" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="29" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="30" HorizontalAlignment="Left" />
+                                <ComboBoxItem Content="31" HorizontalAlignment="Left" />
+                            </ComboBox>
+                            <CheckBox x:Name="chkNumeroGroupe" Content="NoGroupe:" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="chkNumeroGroupe_Click"/>
+                            <TextBox x:Name="txt_NoGroupe" HorizontalAlignment="Left" Height="23" Margin="123,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" IsEnabled="False"/>
+                            <CheckBox x:Name="chkNoJour" Content="NoJour:" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="chkNoJour_Click"/>
+                            <ComboBox x:Name="cmbNo" HorizontalAlignment="Left" Margin="123,186,0,0" VerticalAlignment="Top" Width="36" IsEnabled="False">
+                                <ComboBoxItem Content="1" />
+                                <ComboBoxItem Content="2" />
+                                <ComboBoxItem Content="3" />
+                                <ComboBoxItem Content="4" />
+                                <ComboBoxItem Content="5" />
+                             </ComboBox>
+                            <CheckBox x:Name="chkNoCours" Content="NoCours" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Height="21" Width="102" Click="Event_IsChecked"/>
+                            <TextBox x:Name="txtNoCours" HorizontalAlignment="Left" Height="23" Margin="123,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" VerticalScrollBarVisibility="Disabled" IsEnabled="False"/>
+                        </Grid>
+                    </GroupBox>
+                </Canvas>
+            </TabItem>
+        </TabControl>
+        <Menu Height="24" VerticalAlignment="Top">
+            <MenuItem Header="Les commandes suivants" Height="24" Width="170">
+                <MenuItem Header="Ouvrier"  Click="Event_Ouvrir_Click"/>
+                <Separator HorizontalAlignment="Left" />
+                <MenuItem Header="Annuler le filter" Click="Event_Annuler_Click"/>
+                <Separator HorizontalAlignment="Left" />
+                <MenuItem Header="Quitter"  Click="Event_Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="Aide ?" Width="55" >
+                <MenuItem x:Name="mnu_Docs" Header="Documentation"   />
+                <Separator HorizontalAlignment="Left" />
+                <MenuItem x:Name="mnu_Apropos" Header="A propos" />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

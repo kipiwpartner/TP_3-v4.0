@@ -1,0 +1,113 @@
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\kipiw\GD_kipivip\_Canada_FR\__Колледж\_2_Session\420-D21-MA CONCEPTION\Travaux\_TP3\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Admin\source\repos\TP3-Horaires\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Admin\Source\Repos\TP3-Horaires2\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\kipiw\Source\Repos\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\Documentation.g.cs
+C:\Users\kipiw\RiderProjects\TP3-Horaires\WpfApp1\WpfApp1\obj\Debug\Documentation.baml
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\Documentation.g.cs
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\Documentation.baml
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Admin\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\Documentation.g.cs
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\Documentation.baml
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\kipiw\RiderProjects\TP3-New\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

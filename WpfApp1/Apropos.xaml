@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.Apropos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Apropos" Height="535" Width="510" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <RichTextBox HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+Name="rchBody" FontSize="16" FontFamily="Arial" Background="LightYellow" 
+SpellCheck.IsEnabled="False" IsReadOnly="True" Margin="0,-1,0,1">
+            <FlowDocument>
+                <Paragraph>
+                    Logiciel: Pour travailler avec le base de donnés des étudiants
+                </Paragraph>
+                <Paragraph>
+                    Version 1.0
+                </Paragraph>
+                <Paragraph>
+                    Créé par : Denis Andrienko, Ivan Dziuba, Vahe Hayrapetyan,
+                </Paragraph>
+                <Paragraph>
+                    @2018 UAR Inc.
+                </Paragraph>
+                <Paragraph>
+                    <Image Source="logo.png" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Horaires" Height="527" Width="899">
+        Title="Horaires" Height="700" Width="1292" WindowStartupLocation="CenterScreen" MinWidth="800" MinHeight="500">
     <Grid>
 
         <TabControl Margin="10,40,0,0" >
@@ -34,7 +34,7 @@
                             <GridViewColumn DisplayMemberBinding="{Binding NumeroLocal}" Header="NumeroLocal" Width="120"></GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding idLocal}" Header="idLocal" Width="100"></GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding TypeDeLocal}" Header="TypeDeLocal" Width="100"></GridViewColumn>
-                            <GridViewColumn DisplayMemberBinding="{Binding DateDebut}" Header="DateDebut" Width="70"></GridViewColumn>
+                            <GridViewColumn DisplayMemberBinding="{Binding DateDebut}" Header="DateDebut" Width="100"></GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding HeureDebut}" Header="HeureDebut" Width="100"></GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding DateFin}" Header="DateFin" Width="100"></GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding HeureFin}" Header="HeureFin" Width="100"></GridViewColumn>
@@ -45,7 +45,7 @@
 
             </TabItem>
 
-            <TabItem Header="Filter" Width="100">
+            <TabItem Header="Filtres" Width="100">
                 <Canvas >
 
                     <GroupBox Header="Accordage" Height="350" Canvas.Left="92" Canvas.Top="10" Width="517">
@@ -155,7 +155,7 @@
             </TabItem>
         </TabControl>
         <Menu Height="24" VerticalAlignment="Top">
-            <MenuItem Header="Les commandes suivants" Height="24" Width="170">
+            <MenuItem Header="Fichier" Height="24" Width="51">
                 <MenuItem Header="Ouvrier"  Click="Event_Ouvrir_Click"/>
                 <Separator HorizontalAlignment="Left" />
                 <MenuItem Header="Annuler le filter" Click="Event_Annuler_Click"/>
@@ -163,9 +163,9 @@
                 <MenuItem Header="Quitter"  Click="Event_Exit_Click"/>
             </MenuItem>
             <MenuItem Header="Aide ?" Width="55" >
-                <MenuItem x:Name="mnu_Docs" Header="Documentation"   />
+                <MenuItem x:Name="mnu_Docs" Header="Documentation" Click="Mnu_Docs_Click"   />
                 <Separator HorizontalAlignment="Left" />
-                <MenuItem x:Name="mnu_Apropos" Header="A propos" />
+                <MenuItem x:Name="mnu_Apropos" Header="A propos" Click="Mnu_Apropos_Click" />
             </MenuItem>
         </Menu>
     </Grid>

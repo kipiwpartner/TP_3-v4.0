@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Documentation" Height="600" Width="1000" Loaded="Window_Loaded" ResizeMode="NoResize">
+        Title="Documentation" Height="600" Width="1000" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <DocumentViewer Height="550" HorizontalAlignment="Stretch" Margin="11,13,0,0" Name="monviewer" VerticalAlignment="Top" Width="950"/>
     </Grid>

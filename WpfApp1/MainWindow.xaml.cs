@@ -199,6 +199,7 @@ namespace WpfApp1
             this.lst_View.Items.Refresh();
             tbl_1.Focus();
             lst_Horaire_copy.Clear();
+            Clear_All();
 
         }
 
@@ -517,6 +518,18 @@ namespace WpfApp1
             }
             else
                 MessageBox.Show("Nojour est vide!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private void Mnu_Docs_Click(object sender, RoutedEventArgs e)
+        {
+            Documentation fen = new Documentation();
+            fen.ShowDialog();
+        }
+
+        private void Mnu_Apropos_Click(object sender, RoutedEventArgs e)
+        {
+            Apropos fen = new Apropos();
+            fen.ShowDialog();
         }
 
         //<----------------------------------------------------->
